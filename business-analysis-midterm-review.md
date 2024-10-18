@@ -155,4 +155,27 @@ features introduced into production one by one in phases
 - can be very very long
 - introducing too many changes can cause change fatigue
 
+# Managing Projects
+Projects have:
+- discrete beginning and end
+- Produce a unique product
+  - unique to the organization that creates it
 
+**The critical path** is the sequecne of steps that when done complete a project in the shortest amount of time. In other words, *the SDLC.*
+
+**Project scope** is what is and isn't required of the project:
+- requirements
+- schedule/timeline
+- deliverables
+- personnel
+- things that are not being done
+  - as a safeguard agains what client might assume we'll provide
+
+**Scope creep** is the uncontrolled growth of project scope.  
+Caused by improper docmenation and controlling of the scope, it will cause delays and is 100% guaranteed to happen in every project.
+
+**The iron triangle** is a concept the shows the relationship between 3 aspects of a project:
+- cost of making the project
+- scheduled completion time
+- project scope
+Modifying one aspect will affect the others. 
