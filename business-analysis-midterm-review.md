@@ -93,7 +93,7 @@ Process that takes problems and turns them into systems that hopefully solve pro
   - does the system meet the standards and needs of the users?
 6. implemenation
 - putting the system into **production**
-  - available to users
+  - system in a stable state that is available to org for day to day use
 7. maintenance
 - bug fixes, upkeep, responding to feed back
 
