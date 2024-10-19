@@ -1,11 +1,13 @@
 # business concepts
 ## what do business care about?
 Revenue/'top line'
+- from sales of services/products
 - money a business generates
 - before deductions and costs
 profit/'bottom line'
 - money a business gets to keep
 - after deductions and costs
+- *people are the largest cost*
 operations
 - things business does that directly aids producing goods/providing services
 - ex. manufacturing, distributing
@@ -21,14 +23,14 @@ Our job as IT people is to provide systems that are valuable enough so we don't 
 
 ## Assets and investments
 Assets
-- Something that is valuable to the company for more than 1 year
+- Something that provides *economic value* to the company for more than 1 year
   - provides *some* benefit in the future, not just monetary
 - not intended for sale
 - Type of production cost (cost of running business)
 - *people are not assets*, but **information systems are assets**
 Investment
-- Asset obtained with the intention of generating revenue in the future
-- implies risk
+- Assets obtained with the intention of *generating revenue* in the future
+- implies risk of losing money
 
 ## The value of investments and assets
 Total cost of ownership (TCO)
@@ -98,9 +100,19 @@ Process that takes problems and turns them into systems that hopefully solve pro
 - bug fixes, upkeep, responding to feed back
 
 ## Problems
-- Every step is reliant on the completion of the previous step
-- Leads to inability to adapt to feed back with going back to the start
-  
+- Dependencies: Every step is reliant on the completion of the previous step  
+- in a linear project, scope is defined once
+- adding changes mean going back to the start of the sdlc
+- very costly
+
+## HOW SCRUM SOLVE?
+- revist scope each week
+
+Scrum projects end by the laws of the iron triangle (hopefull all at the same time)
+
+## TIMEBOXING
+- giving a task a fixed period to complete it
+
 
 
 # Requirements
@@ -112,6 +124,9 @@ What a system 'oughta do to solve a problem. (Very important)
 Functional requirements focus on what functions a system needs to perform for a business to meet their needs. This manifests as features and capabilities of a system.
 
 Non-functional requirements are how the system operates. How much downtime, how fast it has to respond, the design, etc. This are generally characteristics of the system, not what it's capable of.
+
+## Scalability 
+Ability of information systems to scale (get bigger, support more data or users)
 
 ## FURPS
 |FURPS category| Description|
@@ -132,7 +147,7 @@ Just take down the old one and put up the new one
 - Good for limited resources
 - Causes downtime while legacy (old) system is taken down
 - Does not allow for testing
-- No rolling back to previous system
+- No rolling back to previous system (very important, you cant use the legacy system)
 ## Parallel Operations
 Run both systems at the same time
 - Highest cost, low risk
@@ -161,7 +176,7 @@ Projects have:
 - Produce a unique product
   - unique to the organization that creates it
 
-**The critical path** is the sequecne of steps that when done complete a project in the shortest amount of time. In other words, *the SDLC.*
+**The critical path** is the sequecne of steps needed to be completed that determines the end date. In other words, *the SDLC.*
 
 **Project scope** is what is and isn't required of the project:
 - requirements
