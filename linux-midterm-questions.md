@@ -57,6 +57,7 @@ Create a cloud-init script to configure:
 
 # signals
 What is a signal?  
+How can i find every signal?
 List the common signals for ending programs.  
 What commands can i use to send signals to programs?  
 What signal does CTRL-C send?  
