@@ -43,38 +43,38 @@ Data set of sample = {
 ## Sampling Methods
 ### Random sampling/Probability sampling
 Every individual has an **equal chance of being chosen**  
-**Simple random sample**
+  - **Simple random sample**
     - pick people randomly until you meet your sample size  
-**Systemic sampling**
-  - place the things/people of the sampling frame in a sequence
-  - randomly choose a starting point
-  - increment by a step size and choose the thing/person you land on
+  - **Systemic sampling**
+    - place the things/people of the sampling frame in a sequence
+    - randomly choose a starting point
+    - increment by a step size and choose the thing/person you land on
     - step size = population size/sample size
-- stop when you return to the starting point  
-**Stratified sampling**
-  - sample is categorized by relevant characteristics
-    - ex. gender
-  - things/people from sample are chosen randomly but *proportionally to group sizes*
-    -  If the groups have a 3:4 ratio, the sample should match the same ratio  
-**Cluster sampling**
-  - split the sampling frame into random groups of equal size
-  - choose groups randomly to fill sample size  
+    - stop when you return to the starting point  
+  - **Stratified sampling**
+    - sample is categorized by relevant characteristics
+      - ex. gender
+    - things/people from sample are chosen randomly but *proportionally to group sizes*
+      -  If the groups have a 3:4 ratio, the sample should match the same ratio  
+  - **Cluster sampling**
+    - split the sampling frame into random groups of equal size
+    - choose groups randomly to fill sample size  
 ### Non-random sampling
 Every individual **does not have and equal chance of being chosen**  
-**convience sampling**  
-  - picking those who are physically convient to reach out to
+  - **convience sampling**  
+    - picking those who are physically convient to reach out to
     - man on the street interviews  
-**purposive sampling**  
-  - Choosing people who have expertise or knowledge on the topic  
-**snowball sampling**
-  - Asking people to reach out to others to build your sampling set
-  - pyramid scheme  
-**quota sampling**
-  - Divide sampling frame into groups based on a characteristic
-  - set a 'quota' for how many people/things from each group you need
-    - should be proportional to the group sizes
-  - use convience sampling to fill the quotas
-    - this differs from stratified sampling, where they are chosen *randomly*  
+  - **purposive sampling**  
+    - Choosing people who have expertise or knowledge on the topic  
+  - **snowball sampling**
+    - Asking people to reach out to others to build your sampling set
+    - pyramid scheme  
+  - **quota sampling**
+    - Divide sampling frame into groups based on a characteristic
+    - set a 'quota' for how many people/things from each group you need
+      - should be proportional to the group sizes
+    - use convience sampling to fill the quotas
+      - this differs from stratified sampling, where they are chosen *randomly*  
 
 # Graphical Summaries
 ## Frequency Distributions
@@ -133,9 +133,9 @@ Extreme values of a dataset. Only to be deleted if the measurement is correct. V
   - Lower limit = Q~1~ - 1.5(IQR)  
 
 ## Categorical Graphs  
-**Bar Chart**  
-  - Labels vs. Occurance Count
-**Pie Charts**  
-  - Bar chart alternative
+  - **Bar Chart**  
+    - Labels vs. Occurance Count
+  - **Pie Charts**  
+    - Bar chart alternative
 
 
