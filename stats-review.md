@@ -218,7 +218,7 @@ If you are picking one item for `n` options, you can multiply each number of opt
 ### The mysterious method
 **Order doesn't matter, with replacement**  
 From `n` items, take `r`,   
-$\frac{(r+n-1)!}{r!(n-1)}$  
+$\frac{(r+n-1)!}{r!(n-1)!}$  
 One give away is when `r` is larger than `n` (CN)  
 
 ### Permutations
