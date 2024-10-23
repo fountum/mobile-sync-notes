@@ -45,7 +45,7 @@ Data set of sample = {
 Every individual has an **equal chance of being chosen**  
   - **Simple random sample**
     - pick people randomly until you meet your sample size  
-  - **Systemic sampling**
+  - **Systematic sampling**
     - place the things/people of the sampling frame in a sequence
     - randomly choose a starting point
     - increment by a step size and choose the thing/person you land on
