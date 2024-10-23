@@ -76,3 +76,65 @@ Every individual **does not have and equal chance of being chosen**
   - use convience sampling to fill the quotas
     - this differs from stratified sampling, where they are chosen *randomly*
 
+# Graphical Summaries
+## Frequency Distributions
+For categorical variables and drawing [Histograms](#histograms)  
+Measurements are grouped into **classes**, intervals of equal size, or **class width**  
+  - **Lower/Higher Class limit**: the lower and upper bound of a class
+  - **Class width**: Higher class-lower class
+The amount of times a value in the class occurs in the data set is the **frequency**  
+  - **Frequency**: raw count of occurances of a class
+  - **Relative frequency**: frequency/sum of all frequencies
+  - **Cumulative frequency/relative frequency**: sum of frequency/cumulative of current and previous classes
+Observing frequency distributions  
+  - **Modal Class**: class with highest frequency 
+    - Remember what *mode* means
+  - **Class Mark**: mean of frequencies
+  - **Level of Precision**: Minimum increment between measurements of a variable
+    - If you're measuring age, your level of precision is years
+    - If you're measuring height, your minimum increment can be 16ths of an inch or 1 millimeter
+  - **Class Boundaries**: mid point between two adjacent classes
+    - take the average of respective lower and higher class limit
+    - *No values should have this measurement* 
+## Histograms
+A visual representation of [frequency distributions](#frequency-distributions). Basically fancy bar graphs for numerical variables. 
+  - X-axis/Labels are replaced with **values, not classes!**
+  - 1 bar represents a class
+    -  Vertical borders are the **class boundaries**
+    -  Width spans is the **class width**, or occupies the interval of the class on the x-axis
+  - Instead of spacing out bars, they are adjacent to each other and share borders
+## Percentiles and Quartiles
+A **percentile** is a point/value in the data splits it into to halves.  
+  - The dividing point/value is known as the *kth percentile*. (P~k~)
+    - sort values in ascending order
+    - i (index) = k (as decimal)*number of values
+    - if whole
+      - find that index in the values
+      - kth percentile = average of ith value and the i+1th value
+    - if not whole
+      - round index
+      - that term is equal to P~k~
+  - The *lower k%* has values *less than* the kth percentile 
+  - The *upper `100-k`%* has values *more than* the kth percentile
+  
+A **quartile** are percentiles in 25% increments. Used for **box plots** 
+  - (0%, 25%, 50%, 75%, 100%) = (Q~0~, Q~1~, Q~2~, Q~3~, Q~4~)
+    - Q~2~ is equal to the median of data set
+  - **Range** = max (Q~4~) - min (Q~0~)
+  - **interquartile range (IQR)**: Q~3~ - Q~1~ 
+
+The **five-number summary** for a set of data consists of:  
+  - max (Q~4~) & min (Q~0~)
+  - Q~1~, Q~2~, Q~3~
+
+### Outliers
+Extreme values of a dataset. Only to be deleted if the measurement is correct. Values outside of this range is considered extremely small or large:  
+  - Upper limit = Q~3~ + 1.5(IQR)
+  - Lower limit = Q~1~ - 1.5(IQR)
+
+## Categorical Graphs
+**Bar Chart**
+  - Labels vs. Occurance Count
+**Pie Charts**
+  - Bar chart alternative
+  
