@@ -79,13 +79,16 @@ Every individual **does not have and equal chance of being chosen**
 # Graphical Summaries
 ## Frequency Distributions
 For categorical variables and drawing [Histograms](#histograms)  
+
 Measurements are grouped into **classes**, intervals of equal size, or **class width**  
   - **Lower/Higher Class limit**: the lower and upper bound of a class
-  - **Class width**: Higher class-lower class  
+  - **Class width**: Higher class-lower class
+
 The amount of times a value in the class occurs in the data set is the **frequency**  
   - **Frequency**: raw count of occurances of a class
   - **Relative frequency**: frequency/sum of all frequencies
-  - **Cumulative frequency/relative frequency**: sum of frequency/cumulative of current and previous classes  
+  - **Cumulative frequency/relative frequency**: sum of frequency/cumulative of current and previous classes
+
 Observing frequency distributions  
   - **Modal Class**: class with highest frequency 
     - Remember what *mode* means
