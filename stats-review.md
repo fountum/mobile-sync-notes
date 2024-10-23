@@ -188,3 +188,48 @@ Sk = 3(mean-median)/standard deviation
 | 1 > Sk > -1 | no significant skew |  
 | Sk > 1 | right |   
 
+# Probability and Counting
+## Concepts
+   - **Random Experiement**: experiment where outcomes cannot be controlled
+   - **Outcome**: one specific result of an random experiement
+   - **Sample Space**: all possible outcomes of a random experiement
+   - **Event**: subset of sample space, one or more outcomes
+     - Event A occured if the outcome of the experiement is A
+   - **Probability**: chance event A happens, P(A)
+
+## Classical vs Relative Frequency Approach
+Two different ways of calculating the probability of event A (P(A)).
+
+### Classical Approach
+A theoretical method. `P(A) = outcomes in event A/total number of outcomes`
+
+### Relative Approach
+A practical method. Not equal to the classical approach, but gets closer to it with more trials.  
+Perform the experiement for a number of trials and record:  
+1. Total number of trials
+2. Number of times event A occurs
+`P(A) = Number of times event A occurs/Total number of trials`
+
+## Counting
+### Fundamental Counting Rule
+**Order matters, with replacement**  
+If you are picking one item for `n` options, you can multiply each number of options.  
+
+### The mysterious method
+**Order doesn't matter, with replacement**  
+From `n` items, take `r`,   
+$\frac{(r+n-1)!}{r!(n-1)}$  
+One give away is when `r` is larger than `n` (CN)  
+
+### Permutations
+**Order matters, no replacement**  
+From `n` items, *pick* `r`,  
+$nPr = \frac{n!}{(n-r)!}$  
+
+### Combinations
+**Order doesn't matter, no replacement**  
+From `n` items, *choose* `r`,  
+$nCr = \frac{nPr}{r!} = \frac{n!}{r!(n-r)!}$
+
+
+
