@@ -141,4 +141,50 @@ Extreme values of a dataset. Only to be deleted if the measurement is correct. V
   - **Pie Charts**  
     - Bar chart alternative
 
+# Numerical Summaries of Data
+## Measures of averages
+
+| Type | Sample Symbol | Population Symbol | what? |
+| ---- | ------------- | ----------------- | ----- |
+| Mean | x̄             | µ                 | Arithmatic average of X |
+| Median | x̃           |                   | Value in center of *sorted data set*. If no value exists in the center, get the mean of the 2 adjacent values.|
+| Mode |               |                   | Value that occurs most frequently in data set|
+
+### Sensitivity to Extreme Values
+If a data set X contains extreme values, what measure of average is the most stable?  
+  - Mean is the most affected by extreme values. An intreme value can cause the mean to fluctuate by many factors.  
+    - extremely large values move the mean to the *right of the median*
+    - extremely small values move the mean to the *left of the median*
+  - Median and mode are more stable  
+
+## Measures of Spread
+1. Range
+   - Range of all values in data set
+   - Max value - min value
+   - *sensitive to extreme values*
+2. Inter-quartile Range
+   - Range of inner 50% of values
+   - IQR = Q3 - Q1
+3. Standard Deviation
+   - Measures the spread of data in intervals
+   - s, n - 1 for sample
+   - σ, N for population
+4. Variance
+   - Square of standard deviation
+  
+## Skewness
+Where the data leans towards relative to the median  
+| mean and median | skewness | 
+| --------------- | -------- |  
+| x̄ < x̃ | left |   
+| x̄ = x̃ | no skew |  
+| x̄ > x̃ | right |   
+
+### Calculating skewness
+Sk = 3(mean-median)/standard deviation  
+| Sk | skewness | 
+| -- | -------- |  
+| Sk < -1 | left |   
+| 1 > Sk > -1 | no significant skew |  
+| Sk > 1 | right |   
 
