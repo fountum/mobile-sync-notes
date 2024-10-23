@@ -264,6 +264,25 @@ $P(A \cap B) = P(A) * {P{B}}$
 Events A and B are considered to be mutually exclusive if they **cannot happen at the same time**. On a diagram, there would be no overlap between set A and B.
 $P(A \cap B) = 0$
 
+# Normal Distributions
+## THE KEY IDEA
+X <=> Z <=> P  
+Use $x=\frac{Z-x\bar}{\sigma}$ to go from `x` and `z`
+Use The Table™ to go from `z` and `p`
 
+## Nomrla Distributions
+Bell curves.  
+Distributions are written as:  
+$variable ~ N(x\bar, varience)$
+
+## Standard Normal Distribution
+$Z ~ N(0, 1)$  
+
+## Non-Standard Normal Distributions  
+$X ~ N(x\bar, varience)$  
+Convert to Z using $x=\frac{Z-x\bar}{\sigma}$
+
+## Unusual Values in Normal Distributions
+A value is considered unusual if $Z > 2 or Z < -2$
 
 
