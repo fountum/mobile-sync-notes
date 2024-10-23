@@ -231,5 +231,39 @@ $nPr = \frac{n!}{(n-r)!}$
 From `n` items, *choose* `r`,  
 $nCr = \frac{nPr}{r!} = \frac{n!}{r!(n-r)!}$
 
+# Probability Laws and Conditional Proability
+## Probability Laws
+### Complementary Rule
+$P(A) = 1-P(\bar A)$
+
+Best use case for the complementary rule is for "at least one" problems.  
+Example:  
+$P(At least one pair of students have the same birthday) = 1-P(no students have the same birthday)$
+
+### Addition Rule (Union/OR)
+For the probability of event A *or* event B occuring (inclusive):  
+$P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+### Conditional Probability
+The probability that event B happens given that event A has occured:  
+$P(B | A) = \frac{P(A \cap B)}{P{A}}$
+
+This implies that the event B is dependant on event A. However, this isn't always the case.  
+
+#### Independent Events
+If $P(B | A) = {P{B}}$, then event A and B are independent from each other.
+
+### Multiplication Rule (Intersection/AND)
+For the probability of event A *and* event B occuring:  
+$P(A \cap B) = P(A) * P(B | A)$
+
+If events A and B are independent:  
+$P(A \cap B) = P(A) * {P{B}}$
+
+### Mutually Exclusive
+Events A and B are considered to be mutually exclusive if they **cannot happen at the same time**. On a diagram, there would be no overlap between set A and B.
+$P(A \cap B) = 0$
+
+
 
 
