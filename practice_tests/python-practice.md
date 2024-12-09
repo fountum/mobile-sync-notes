@@ -1,7 +1,27 @@
 # ACIT 2515 Practice Exam
-![Questions only](./python-practice-exam.md)
 
 # Table of Contents
+- [ACIT 2515 Practice Exam](#acit-2515-practice-exam)
+- [Table of Contents](#table-of-contents)
+- [Basics](#basics)
+  - [Collections (Lists, Tuples, Sets, Dictionaries)](#collections-lists-tuples-sets-dictionaries)
+      - [Aside](#aside)
+  - [Virtual Enviroment](#virtual-enviroment)
+  - [Modules and Packages](#modules-and-packages)
+- [Testing](#testing)
+  - [Unit Testing](#unit-testing)
+  - [Fixtures](#fixtures)
+  - [Patching and Mocks](#patching-and-mocks)
+- [Classes and Objects](#classes-and-objects)
+  - [Dunder/Magic methods](#dundermagic-methods)
+- [Data Persistence](#data-persistence)
+  - [CSV](#csv)
+- [SQLAlchemy](#sqlalchemy)
+  - [Sessions and Statements](#sessions-and-statements)
+  - [Tables](#tables)
+- [Flask](#flask)
+  - [Template scaffolding](#template-scaffolding)
+
 
 # Basics
 What does this print? 
